@@ -83,7 +83,7 @@ Pmin=[1e5    1e-4     0.0002    0.1   1e3    0.1    20       1.3];
           Pss(2)=gamma;
           Pss(end)=alpha;
           Pss(4)=Theta(j);
-          Pss(7)=20;
+          Pss(7)=2e4;
           if 2*Eo<=Eo_max && 2*Ec<=Eo_max
               PPst=[PPst;Ps(i,:)];
               
