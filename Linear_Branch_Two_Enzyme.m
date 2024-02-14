@@ -79,7 +79,7 @@ save('FigS2A.mat','Res')
          Pss(2)=gamma;
          Pss(end)=alpha;
          Pss(4)=Theta(j);
-         Pss(7)=2e4;
+         Pss(7)=20;%2e4;
       if 3*Eo<=Eo_max && 3*Ec<=Eo_max
          PPst=[PPst;Ps(i,:)];     
 
